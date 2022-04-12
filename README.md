@@ -6,7 +6,7 @@
 
 [배포링크:elephant:]()
 
-###소개
+### 소개
 
 > 짜여진 로그인 폼을 피그마를 보고 똑같이 구현하는 토이 프로젝트를 하였습니다. HTML, CSS를 사용했으며 그 동안 배웠던 font, margin, padding, float, overflow 등을 사용하였습니다.
 
