@@ -57,6 +57,7 @@
 .container-find .link-findid {
   float: left;
   text-decoration: none;
+  color: #767676;
 }
 
 .container-find .link-findid::after {
@@ -72,11 +73,13 @@
 .container-find .link-findpw {
   float: left;
   text-decoration: none;
+  color: #767676;
 }
 
 .container-find .link-join {
   float: right;
   text-decoration: none;
+  color: #767676;
 }
 
 .container-find .img-join {
