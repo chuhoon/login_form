@@ -1,0 +1,239 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+section {
+  width: 520px;
+  margin: 100px auto;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+}
+
+main {
+  border-top: 1px solid #c4c4c4;
+  padding: 26px 24px 15px;
+}
+
+.title {
+  display: block;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 20px 24px 18px;
+  text-align: center;
+}
+
+.img-exit {
+  float: right;
+  width: 16px;
+}
+
+.img-exit:hover {
+  cursor: pointer;
+}
+
+.sub-title {
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.container-login .input-id {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  width: 455px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px 0px 15px 16px;
+}
+
+.container-login .input-pw {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  width: 455px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 15px 0px 15px 16px;
+}
+
+input[id='chkbox'] {
+  display: none;
+}
+
+input[id='chkbox'] + label em {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  background: url(./images/check-box.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+
+input[id='chkbox']:checked + label em {
+  background: url(./images/check-box2.png) 0 0 no-repeat;
+}
+
+.label-chkbox {
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  line-height: 20px;
+  color: #767676;
+}
+
+/* .container-remainlogin {
+  overflow: hidden;
+} */
+
+/* .img-emptycheckbox {
+  float: left;
+  margin-right: 8px;
+}
+
+.txt-remainlogin {
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  float: left;
+  color: #767676;
+} */
+
+.btn-login {
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  width: 472px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2f80ed;
+  margin: 20px 0;
+}
+
+.link-find {
+  margin-bottom: 30px;
+}
+
+.link-find a {
+  text-decoration: none;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #767676;
+}
+
+.link-join {
+  margin-left: 134px;
+}
+
+.link-join::after {
+  content: '|';
+  margin: 0px 12px;
+  color: #767676;
+}
+
+.line-txt {
+  display: block;
+  position: relative;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.line-txt::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  background-color: #c4c4c4;
+  width: 44%;
+  height: 1px;
+}
+
+.line-txt::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: #c4c4c4;
+  width: 44%;
+  height: 1px;
+}
+
+a.alink {
+  display: block;
+  width: 470px;
+  padding: 14px 0;
+  margin-bottom: 10px;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+  color: #767676;
+}
+
+a.btn1 {
+  border: 1px solid #767676;
+}
+
+a.btn1::before {
+  content: url(images/Google__G__Logo\ 1.png);
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
+
+a.btn2 {
+  border: 1px solid #2d9cdb;
+}
+
+a.btn2::before {
+  content: url(images/facebook.png);
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
+
+a.btn3 {
+  border: 1px solid #00bf18;
+}
+
+a.btn3::before {
+  content: url(images/naver-logo.png);
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
+
+a.btn4 {
+  border: 1px solid #f2c94c;
+}
+
+a.btn4::before {
+  content: url(images/message-circle.png);
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
